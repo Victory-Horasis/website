@@ -1359,6 +1359,12 @@ ul {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+  .challenge-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 .challenge-card {
   display: flex;
   gap: 1.25rem;
@@ -1519,6 +1525,12 @@ ul {
   gap: 1.25rem;
 }
 
+@media (max-width: 768px) {
+  .principles-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .principle-card {
   padding: 1.75rem;
   background: var(--off-white);
@@ -1577,6 +1589,12 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .result-card {
